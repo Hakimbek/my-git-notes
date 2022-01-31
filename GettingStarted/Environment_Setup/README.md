@@ -30,3 +30,10 @@ You can check your configuration settings; you can use the **git config --list**
 ```
 $ git config --list  
 ```
+
+# Git configuration levels
+The git config command can accept arguments to specify the configuration level. The following configuration levels are available in the Git config.
+
+- local
+- global
+- system
