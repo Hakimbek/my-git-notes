@@ -3,7 +3,7 @@ Git is a modern and widely used distributed version control system in the world.
 
 ## Features of Git
 ### Open Source
-  - Git is an open-source tool. It is released under the GPL (General Public License) license.
+   Git is an open-source tool. It is released under the GPL (General Public License) license.
 ### Scalable
   - Git is scalable, which means when the number of users increases, the Git can easily handle such situations.
 ### Distributed
