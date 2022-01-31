@@ -1,4 +1,4 @@
-# Java
+# Java Core
 - ## [What is Java?](What_is_Java/README.md)
  
 - ## [JVM, JRE, JDK](JVM_JRE_JDK/README.md)
@@ -91,33 +91,3 @@
    - ### [Networking Concepts](Network/Consept/README.md)
    - ### [URL class](Network/URL/README.md)
    - ### [URLConnection class](Network/Connection/README.md)
-   - ### [HttpURLConnection class](Network/HTTP/README.md)
- 
-- ## Java I/O
-   - ### [Java Input/Output](IO/JavaIO/README.md)
-   - ### [File Input/Output Stream](IO/FileIOStream/README.md)
-   - ### [Buffered Input/Output Stream](IO/BufferedIOStream/README.md)
-   - ### [Writer/Reader](IO/WriterReader/README.md)
-   - ### [File Writer/Reader](IO/FileWR/README.md)
-   - ### [Buffered Writer/Reader](IO/BufferedWR/README.md)
-   - ### [File](IO/File/README.md)
-   - ### [Serialization](IO/Serialization/README.md)
-  
-- ## Java Collections
-   - ### [Collection Framework](Collections/CollectionFramework/README.md)
-   - ### [List](Collections/List/README.md)
-   - ### [Set](Collections/Set/README.md)
-   - ### [Queue, Deque](Collections/Queue/README.md)
-   - ### [Map](Collections/Map/README.md)
-   - ### [Collections class](Collections/Collections/README.md)
-   - ### [Iterator](Collections/Iterator/README.md)
-
-- ## [Generics](Generics/README.md)
-- ## [Annotations](Annotations/README.md)
-- ## [Enums](Enums/README.md)
-- ## [Variable Arguments](VarArg/README.md)
-- ## [Lambda Expressions](Lambda/README.md)
-- ## [Java Methods Reference](MethodReference/README.md)
-- ## [Functional Interfaces](FunctionalInterfaces/README.md)
-- ## [Optional class](Optional/README.md)
-- ## [Stream](Stream/README.md)
