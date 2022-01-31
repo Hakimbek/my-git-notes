@@ -19,3 +19,4 @@
     - [Head](Staging_Commits/Head/README.md)
     - [Origin Master](Staging_Commits/Origin_Master/README.md)
     - [Remote](Staging_Commits/Remote/README.md)
+    - [Tags](Staging_Commits/Tags/README.md)
