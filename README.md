@@ -20,3 +20,9 @@
     - [Origin Master](Staging_Commits/Origin_Master/README.md)
     - [Remote](Staging_Commits/Remote/README.md)
     - [Tags](Staging_Commits/Tags/README.md)
+
+  - ## Undoing changes
+    - [Checkout](Undoing/Checkout/README.md)
+    - [Revert](Undoing/Revert/README.md)
+    - [Reset](Undoing/Reset/README.md)
+    - [Cherry-pick](Undoing/Cherry_Pick/README.md)
