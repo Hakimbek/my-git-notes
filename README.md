@@ -11,3 +11,4 @@
     - [Add](Staging_Commits/Add/README.md)
     - [Commit](Staging_Commits/Commit/README.md)
     - [Clone](Staging_Commits/Clone/README.md)
+    - [Stash](Staging_Commits/Stash/README.md)
