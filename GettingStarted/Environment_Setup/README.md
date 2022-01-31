@@ -16,3 +16,17 @@ The Git uses this email id for each commit.
 ```
 $ git config --global user.email  "abduhakim.bahramov@gamil.com"  
 ```
+
+## Setting editor
+You can set the default text editor when Git needs you to type in a message. If you have not selected any of the editors, Git will use your default system's editor.
+
+```
+$ git config --global core.editor Vim  
+```
+
+## Checking Your Settings
+You can check your configuration settings; you can use the **git config --list** command to list all the settings that Git can find at that point.
+
+```
+$ git config --list  
+```
