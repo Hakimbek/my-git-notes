@@ -3,7 +3,7 @@ Git is a modern and widely used distributed version control system in the world.
 
 ## Features of Git
 ### Open Source
-   Git is an open-source tool. It is released under the GPL (General Public License) license.
+  - Git is an open-source tool. It is released under the GPL (General Public License) license.
 ### Scalable
   - Git is scalable, which means when the number of users increases, the Git can easily handle such situations.
 ### Distributed
@@ -16,10 +16,10 @@ Git is a modern and widely used distributed version control system in the world.
   - Git supports seamless branching and merging, which helps in visualizing and navigating a non-linear development. A branch in Git represents a single commit. We can construct the full branch structure with the help of its parental commit.
 ### Branching and Merging
   - Branching and merging are the great features of Git, which makes it different from the other SCM tools. Git allows the creation of multiple branches without affecting each other. We can perform tasks like creation, deletion, and merging on branches, and these tasks take a few seconds only. Below are some features that can be achieved by branching:
-   - We can create a separate branch for a new module of the project, commit and delete it whenever we want.
-   - We can have a production branch, which always has what goes into production and can be merged for testing in the test branch.
-   - We can create a demo branch for the experiment and check if it is working. We can also remove it if needed.
-   - The core benefit of branching is if we want to push something to a remote repository, we do not have to push all of our branches. We can select a few of our branches, or all of them together.
+    - We can create a separate branch for a new module of the project, commit and delete it whenever we want.
+    - We can have a production branch, which always has what goes into production and can be merged for testing in the test branch.
+    - We can create a demo branch for the experiment and check if it is working. We can also remove it if needed.
+    - The core benefit of branching is if we want to push something to a remote repository, we do not have to push all of our branches. We can select a few of our branches, or all of them together.
 ### Data Assurance
   - The Git data model ensures the cryptographic integrity of every unit of our project. It provides a unique commit ID to every commit through a SHA algorithm. We can retrieve and update the commit by commit ID. Most of the centralized version control systems do not provide such integrity by default.
 ### Staging Area
