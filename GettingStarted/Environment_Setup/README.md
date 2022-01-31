@@ -38,7 +38,7 @@ The git config command can accept arguments to specify the configuration level. 
 - global
 - system
 
-** --local
+## --local
 It is the default level in Git. Git config will write to a local level if no configuration option is given. Local configuration values are stored in **.git/config** directory as a file.
 
 ## --global
