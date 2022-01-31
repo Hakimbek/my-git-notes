@@ -25,4 +25,10 @@
     - [Checkout](Undoing/Checkout/README.md)
     - [Revert](Undoing/Revert/README.md)
     - [Reset](Undoing/Reset/README.md)
+    - [Git Rm](Undoing/RM/README.md)
     - [Cherry-pick](Undoing/Cherry_Pick/README.md)
+
+  - ## Inspecting Changes
+    - [Log](Inspecting_Changes/Log/README.md)
+    - [Diff](Inspecting_Changes/Diff/README.md)
+    - [Status](Inspecting_Changes/Status/README.md)
