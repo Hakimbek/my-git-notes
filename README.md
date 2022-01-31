@@ -5,3 +5,6 @@
     - [Git Tools](GettingStarted/Tools/README.md)
     - [Git Terminology](GettingStarted/Terminology/README.md)
     - [Git Flow](GettingStarted/Flow/README.md)
+
+  - ## Staging and Commits
+    - [Init](Staging_Commits/Init/README.md)
