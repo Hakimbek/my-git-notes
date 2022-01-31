@@ -8,11 +8,11 @@ Git supports a command called git config that lets you get and set configuration
 Setting **user.name** and **user.email** are the necessary configuration options as your name and email will show up in your commit messages.
 
 The username is used by the Git for each commit.
-```git
+```
 $ git config --global user.name "Hakimbek Bahramov"  
 ```
 
 The Git uses this email id for each commit.
-```git
+```
 $ git config --global user.email  "abduhakim.bahramov@gamil.com"  
 ```
