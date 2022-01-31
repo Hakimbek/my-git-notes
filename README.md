@@ -8,3 +8,5 @@
 
   - ## Staging and Commits
     - [Init](Staging_Commits/Init/README.md)
+    - [Add](Staging_Commits/Add/README.md)
+    - [Commit](Staging_Commits/Commit/README.md)
