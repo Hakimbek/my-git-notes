@@ -1,16 +1,14 @@
-# Git
-  - ## [What is Git?](WhatGit/README.md) 
-  - ## Getting Started
-    - [Git Environment Setup](GettingStarted/Environment_Setup/README.md)
-    - [Git Tools](GettingStarted/Tools/README.md)
-    - [Git Terminology](GettingStarted/Terminology/README.md)
-    - [Git Flow](GettingStarted/Flow/README.md)
+# Git Head
+The HEAD points out the last commit in the current checkout branch. It is like a pointer to any reference. The HEAD can be understood as the "current branch." When you switch branches with 'checkout,' the HEAD is transferred to the new branch.
 
-  - ## Staging and Commits
-    - [Init](Staging_Commits/Init/README.md)
-    - [Add](Staging_Commits/Add/README.md)
-    - [Commit](Staging_Commits/Commit/README.md)
-    - [Clone](Staging_Commits/Clone/README.md)
-    - [Stash](Staging_Commits/Stash/README.md)
-    - [Git ignore](Staging_Commits/Ignore/README.md)
-    - [Fork](Staging_Commits/Fork/README.md)
+## Git Show Head
+The git show head is used to check the status of the Head. This command will show the location of the Head.
+
+```
+$ git show HEAD  
+```
+
+## Git Detached Head
+GitHub keeps track of all commits or snapshots over time. If you check the 'git log' in your terminal, you can show all the previous commits up to the first commit. Detached HEAD mode allows you to discover an older state of a repository. It is a natural state in Git.
+
+When Head doesn't point to most recent commit, such state is called detached Head. If you checkout with an older commit, it will stand the detached head condition. 
