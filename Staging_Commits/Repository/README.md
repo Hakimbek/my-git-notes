@@ -1,16 +1,35 @@
-# Git
-  - ## [What is Git?](WhatGit/README.md) 
-  - ## Getting Started
-    - [Git Environment Setup](GettingStarted/Environment_Setup/README.md)
-    - [Git Tools](GettingStarted/Tools/README.md)
-    - [Git Terminology](GettingStarted/Terminology/README.md)
-    - [Git Flow](GettingStarted/Flow/README.md)
+# Git Repository
+In Git, the repository is like a data structure used by VCS to store metadata for a set of files and directories. It contains the collection of the files as well as the history of changes made to those files. Repository in Git is considered as your project folder. A repository has all the project-related data. Distinct projects have distinct repositories.
 
-  - ## Staging and Commits
-    - [Init](Staging_Commits/Init/README.md)
-    - [Add](Staging_Commits/Add/README.md)
-    - [Commit](Staging_Commits/Commit/README.md)
-    - [Clone](Staging_Commits/Clone/README.md)
-    - [Stash](Staging_Commits/Stash/README.md)
-    - [Git ignore](Staging_Commits/Ignore/README.md)
-    - [Fork](Staging_Commits/Fork/README.md)
+## Getting a Git Repository
+There are two ways to obtain a repository. They are as follows:
+
+- Create a local repository and make it as Git repository.
+- Clone a remote repository (already exists on a server).
+In either case, you can start working on a Git repository.
+
+## Initializing a Repository
+If you want to share your project on a version control system and control it with Git. Then, browse your project's directory and start the git command line (Git Bash for Windows) here. To initialize a new repository, run the below command:
+```
+$ git init  
+```
+
+We can list all the untracked files by git status command.
+```
+$ git status  
+```
+
+To track the files, operate git add command as follows:
+```
+$ git add <filename>  
+```
+To commit a file, perform the git commit command as follows:
+```
+$ git commit -m "Commit message."  
+```
+
+## Cloning an Existing Repository
+We can clone an existing repository. Suppose we have a repository on a version control system like subversion, GitHub, or any other remote server, and we want to share it with someone to contribute. The git clone command will make a copy for any user to contribute.
+```
+$ git clone <Repository URL>  
+```
