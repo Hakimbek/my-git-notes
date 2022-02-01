@@ -32,4 +32,4 @@
 ## Inspecting Changes
  - [Log](Inspecting_Changes/Log/README.md)
  - [Diff](Inspecting_Changes/Diff/README.md)
- - [Status](Inspecting_Changes/Status/README.md
+ - [Status](Inspecting_Changes/Status/README.md)
