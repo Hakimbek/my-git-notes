@@ -33,3 +33,9 @@
  - [Log](Inspecting_Changes/Log/README.md)
  - [Diff](Inspecting_Changes/Diff/README.md)
  - [Status](Inspecting_Changes/Status/README.md)
+
+## Branching and Merging
+ - [Branch](Branching_Merging/Branch/README.md)
+ - [Merge](Branching_Merging/Merge/README.md)
+ - [Rebase](Branching_Merging/Rebase/README.md)
+ - [Squash](Branching_Merging/Squash/README.md)
