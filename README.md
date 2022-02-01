@@ -1,4 +1,4 @@
-# Git
+
   - ## [What is Git?](WhatGit/README.md) 
   - ## Getting Started
     - [Git Environment Setup](GettingStarted/Environment_Setup/README.md)
