@@ -78,3 +78,53 @@ To make the output more specific, you can combine this command with --oneline op
 ```
 $ git log --graph --oneline  
 ```
+
+## Filtering the Commit History
+We can filter the output according to our needs. It's a unique feature of Git. We can apply many filters like amount, date, author, and more on output. Each filter has its specifications. They can be used for implementing some navigation operations on output.
+
+Let's understand each of these filters in detail.
+
+## By Amount:
+We can limit the number of output commit by using git log command. It is the most specific command. This command will remove the complexity if you are interested in fewer commits.
+
+To limit the git log's output, including the -\<n> option. If we want only the last three commit, then we can pass the argument -3 in the git log command. 
+
+## By Date and Time:
+
+We can filter the output by date and time. We have to pass --after or -before argument to specify the date. These both argument accept a variety of date formats. It will run as follows:
+```
+$ git log --after="yy-mm-dd"  
+```
+
+We can also pass the applicable reference statement like "yesterday," "1 week ago", "21 days ago," and more. It will run as:
+```
+git log --after="21 days ago"  
+```
+
+We can also track the commits between two dates. To track the commits that were created between two dates, pass a statement reference --before and --after the date. Suppose, we want to track the commits between "2019-11-01" and "2019-11-08". We will run the command as follows:
+```
+$ git log --after="2019-11-01" --before="2019-11-08 "  
+```
+
+## By Author:
+
+We can filter the commits by a particular user. Suppose, we want to list the commits only made by a particular team member. We can use -author flag to filter the commits by author name. This command takes a regular expression and returns the list of commits made by authors that match that pattern. You can use the exact name instead of the pattern. This command will run as follows:
+```
+$ git log --author="Author name"  
+```
+
+The author's name doesn't need to be an exact match; it just has the specified phrase.
+
+As we know, the author's email is also involved with the author's name, so that we can use the author's email as the pattern or exact search. Suppose, we want to track the commits by the authors whose email service is google. To do so, we can use wild cards as "@gmail.com." Consider the below statement:
+```
+$ git log -author="@gmail.com"  
+```
+
+## By Commit message:
+
+To filter the commits by the commit message. We can use the grep option, and it will work as the author option.
+
+It will run as follows:
+```
+$ git log --grep=" Commit message."  
+```
