@@ -38,3 +38,5 @@ Git is a modern and widely used distributed version control system in the world.
  - [Merge](Branching_Merging/Merge/README.md)
  - [Rebase](Branching_Merging/Rebase/README.md)
  - [Squash](Branching_Merging/Squash/README.md)
+
+## Git Cheat Sheet
