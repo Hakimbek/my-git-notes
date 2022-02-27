@@ -54,9 +54,9 @@ $ git status
 ## Create a Repository and Directory Together
 The git init command allows us to create a new blank repository and a directory together. The empty repository .git is created under the directory. Suppose I want to create a blank repository with a project name, then we can do so by the git init command. Consider the below command
 ```
-$ git init NewDirectory  
+$ git init myDirectory  
 ```
 
 ![directory](image/directory.png)
 
-In above command will create an empty *.git* repository under a directory named NewDirectory.
+In above command will create an empty *.git* repository under a directory named myDirectory.
