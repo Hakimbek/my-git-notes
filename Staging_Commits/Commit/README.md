@@ -48,6 +48,6 @@ $ git commit -am "Commit message."
 ## Git Commit Amend (Change commit message)
 The amend option lets us to edit the last commit. If accidentally, we have committed a wrong commit message, then this feature is a savage option for us. It will run as follows:
 ```
-$ git commit -amend  
+$ git commit --amend  
 ```
 The above command will prompt the default text editor and allow us to edit the commit message.
