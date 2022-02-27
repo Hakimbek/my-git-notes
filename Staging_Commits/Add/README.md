@@ -7,7 +7,7 @@ The "index" contains a snapshot of the working tree data. This snapshot will be 
 
 The git add command can be run many times before making a commit. These all add operations can be put under one commit. The add command adds the files that are specified on command line.
 
-The git add command does not add the .gitignore file by default. In fact, we can ignore the files by this command.
+The git add command does not add the *.gitignore* file by default. In fact, we can ignore the files by this command.
 
 ## Git add files
 Git add command is a straight forward command. It adds files to the staging area. We can add single or multiple files at once in the staging area. It will be run as:
