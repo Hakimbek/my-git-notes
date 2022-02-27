@@ -40,7 +40,7 @@ $ git add -u
 ```
 
 ## Add Files by Wildcard
-Git allows us to add all the same pattern files at once. It is another way to add multiple files together. Suppose I want to add all java files or text files, then we can use pattern .java or .txt. To do so, we will run the command as follows:
+Git allows us to add all the same pattern files at once. It is another way to add multiple files together. Suppose I want to add all java files or text files, then we can use pattern *.java* or *.txt*. To do so, we will run the command as follows:
 ```
 $ git add *.java  
 ```
