@@ -9,7 +9,7 @@ By default, Git Windows package contains the Git Bash tool. We can access it by 
 ### Git Bash Commands
 Git Bash comes with some additional commands that are stored in the /usr/bin directory of the Git Bash emulation. Git Bash can provide a robust shell experience on Windows. Git Bash comes with some essential shell commands like Ssh, scp, cat, find.
 
-Git Bash also includes the full set of Git core commands like **git clone, git commit, git checkout, git push,** and more.
+Git Bash also includes the full set of Git core commands like **git clone, git commit, git checkout, git push** and more.
 
 ## Git GUI
 Git GUI is a powerful alternative to Git BASH. It offers a graphical version of the Git command line function, as well as comprehensive visual diff tools. We can access it by simply right click on a folder or location in windows explorer. Also, we can access it through the command line by typing below command.
