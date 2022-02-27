@@ -25,7 +25,7 @@ You can set the default text editor when Git needs you to type in a message. If 
 $ git config --global core.editor Vim  
 ```
 
-## Checking Your Settings
+### Checking Your Settings
 You can check your configuration settings; you can use the **git config --list** command to list all the settings that Git can find at that point.
 
 ```
