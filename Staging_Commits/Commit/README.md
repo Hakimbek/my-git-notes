@@ -15,6 +15,10 @@ $ git commit
 
 ![commit](image/commit.png)
 
+As we run the command, it will prompt a default text editor and ask for a commit message. The text editor will look like as follows:
+
+![message prompt](image/m-prompt.png)
+
 ## Git commit -a
 The commit command also provides -a option to specify some commits. It is used to commit the snapshots of all changes. This option only consider already added files in Git. It will not commit the newly created files.
 
