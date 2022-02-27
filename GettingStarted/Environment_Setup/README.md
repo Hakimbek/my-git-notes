@@ -37,7 +37,18 @@ This command will list all your settings. See the below command line output.
 ### Output
 ![config list](image/config-list.png)
 
-# Git configuration levels
+### Colored output
+You can customize your Git output to view a personalized color theme. The git config can be used to set these color themes.
+
+### Color.ui
+
+```
+$ Git config -global color.ui true  
+```
+
+The default value of **color.ui** is set as auto, which will apply colors to the immediate terminal output stream. You can set the color value as true, false, auto, and always.
+
+## Git configuration levels
 The git config command can accept arguments to specify the configuration level. The following configuration levels are available in the Git config.
 
 - local
