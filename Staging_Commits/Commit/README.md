@@ -21,6 +21,12 @@ As we run the command, it will prompt a default text editor and ask for a commit
 
 Press the Esc key and after that 'I' for insert mode. Type a commit message whatever you want. Press Esc after that ':wq' to save and exit from the editor. Hence, we have successfully made a commit.
 
+We can check the commit by git log command. Consider the below output:
+
+![log](image/log.png)
+
+We can see in the above output that log option is displaying commit-id, author detail, date and time, and the commit message.
+
 ## Git commit -a
 The commit command also provides -a option to specify some commits. It is used to commit the snapshots of all changes. This option only consider already added files in Git. It will not commit the newly created files.
 
