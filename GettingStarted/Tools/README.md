@@ -12,7 +12,7 @@ Git Bash comes with some additional commands that are stored in the */usr/bin* d
 Git Bash also includes the full set of Git core commands like **git clone, git commit, git checkout, git push** and more.
 
 ## Git GUI
-Git GUI is a powerful alternative to Git BASH. It offers a graphical version of the Git command line function, as well as comprehensive visual diff tools. We can access it by simply right click on a folder or location in windows explorer. Also, we can access it through the command line by typing below command.
+Git GUI is a powerful alternative to Git Bash. It offers a graphical version of the Git command line function, as well as comprehensive visual diff tools. We can access it by simply right click on a folder or location in windows explorer. Also, we can access it through the command line by typing below command.
 
 ```
 $ git gui  
