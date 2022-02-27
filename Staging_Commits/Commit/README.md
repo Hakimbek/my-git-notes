@@ -36,6 +36,8 @@ $ git commit -a
 
 ![ca](image/ca.png)
 
+The above command will prompt our default text editor and ask for the commit message. Type a commit message, and then save and exit from the editor. This process will only commit the already added files. It will not commit the files that have not been staged.
+
 ## Git commit -m
 The -m option of commit command lets you to write the commit message on the command line. This command will not prompt the text editor. It will run as follows:
 ```
