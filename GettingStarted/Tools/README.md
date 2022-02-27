@@ -4,6 +4,8 @@ To explore the robust functionality of Git, we need some tools. Git comes with s
 ## GitBash
 Git Bash is an application for the Windows environment. It is used as Git command line for windows. Git Bash provides an emulation layer for a Git command-line experience. Bash is an abbreviation of **Bourne Again Shell**. Git package installer contains Bash, bash utilities, and Git on a Windows operating system.
 
+By default, Git Windows package contains the Git Bash tool. We can access it by right-click on a folder in Windows Explorer.
+
 ## Git Bash Commands
 Git Bash comes with some additional commands that are stored in the /usr/bin directory of the Git Bash emulation. Git Bash can provide a robust shell experience on Windows. Git Bash comes with some essential shell commands like Ssh, scp, cat, find.
 
