@@ -27,9 +27,6 @@ $ git add .
 ```
 The above command will add all the files available in the repository. 
 
-## Removing Files from the Staging Area
-The git add command is also used to remove files from the staging area. If we delete a file from the repository, then it is available to our repository as an untracked file. The add command is used to remove it from the staging area. It sounds strange, but Git can do it.
-
 ## Add all New and Updated Files Only:
 Git allows us to stage only updated and newly created files at once. We will use the ignore removal option to do so. It will be used as follows:
 ```
