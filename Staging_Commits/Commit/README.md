@@ -34,6 +34,8 @@ The commit command also provides -a option to specify some commits. It is used t
 $ git commit -a  
 ```
 
+![ca](image/ca.png)
+
 ## Git commit -m
 The -m option of commit command lets you to write the commit message on the command line. This command will not prompt the text editor. It will run as follows:
 ```
