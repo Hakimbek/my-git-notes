@@ -19,6 +19,20 @@ The above command will create an empty *.git* repository. Suppose we want to mak
 
 ![init](image/init.png)
 
+The above command will initialize a *.git* repository on the desktop. Now we can create and add files on this repository for version control.
+
+To create a file, run the **cat** or **touch** command as follows:
+
+```
+$ touch <file Name>  
+```
+
+To add files to the repository, run the git add command as follows:
+
+```
+$ git add <file name>  
+```
+
 ## Create a Repository for an existing project
 If you want to share your project on a version control system and control it with Git, then, browse your project's directory and start the git command line (Git Bash for Windows) here. To initialize a new repository, run the below command:
 
