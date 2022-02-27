@@ -43,7 +43,7 @@ You can customize your Git output to view a personalized color theme. The git co
 ### Color.ui
 
 ```
-$ Git config -global color.ui true  
+$ Git config --global color.ui true  
 ```
 
 The default value of **color.ui** is set as auto, which will apply colors to the immediate terminal output stream. You can set the color value as true, false, auto, and always.
