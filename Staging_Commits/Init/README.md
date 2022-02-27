@@ -42,12 +42,14 @@ $ git init
 
 The above command will create a new subdirectory named *.git* that holds all necessary repository files. The .git subdirectory can be understood as a Git repository skeleton.
 
-An empty repository .git is added to my existing project. If we want to start version-controlling for existing files, we have to track these files with git add command, followed by a commit.
+An empty repository *.git* is added to my existing project. If we want to start version-controlling for existing files, we have to track these files with git add command, followed by a commit.
 
 We can list all the untracked files by git status command.
 ```
 $ git status    
 ```
+
+![status](image/status.png)
 
 ## Create a Repository and Directory Together
 The git init command allows us to create a new blank repository and a directory together. The empty repository .git is created under the directory. Suppose I want to create a blank repository with a project name, then we can do so by the git init command. Consider the below command
