@@ -31,7 +31,7 @@ You can check your configuration settings; you can use the **git config --list**
 ```
 $ git config --list  
 ```
-![config-list](/Environment_Setup/image/config-list.png)
+![config list](my-git-notes/GettingStarted/Environment_Setup/image/config-list.png)
 
 # Git configuration levels
 The git config command can accept arguments to specify the configuration level. The following configuration levels are available in the Git config.
