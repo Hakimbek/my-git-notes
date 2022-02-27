@@ -6,7 +6,7 @@ Git Bash is an application for the Windows environment. It is used as Git comman
 
 By default, Git Windows package contains the Git Bash tool. We can access it by right-click on a folder in Windows Explorer.
 
-## Git Bash Commands
+### Git Bash Commands
 Git Bash comes with some additional commands that are stored in the /usr/bin directory of the Git Bash emulation. Git Bash can provide a robust shell experience on Windows. Git Bash comes with some essential shell commands like Ssh, scp, cat, find.
 
 Git Bash also includes the full set of Git core commands like git clone, git commit, git checkout, git push, and more.
