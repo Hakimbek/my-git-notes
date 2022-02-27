@@ -56,4 +56,7 @@ The git init command allows us to create a new blank repository and a directory 
 ```
 $ git init NewDirectory  
 ```
-The above command will create an empty .git repository under a directory named NewDirectory.
+
+![directory](image/directory.png)
+
+In above command will create an empty *.git* repository under a directory named NewDirectory.
