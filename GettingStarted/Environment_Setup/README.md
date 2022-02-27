@@ -31,6 +31,10 @@ You can check your configuration settings; you can use the **git config --list**
 ```
 $ git config --list  
 ```
+
+This command will list all your settings. See the below command line output.
+
+### Output
 ![config list](image/config-list.png)
 
 # Git configuration levels
