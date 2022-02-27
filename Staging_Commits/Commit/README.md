@@ -13,6 +13,8 @@ The commit command will commit the changes and generate a commit-id. The commit 
 $ git commit  
 ```
 
+![commit](image/commit.png)
+
 ## Git commit -a
 The commit command also provides -a option to specify some commits. It is used to commit the snapshots of all changes. This option only consider already added files in Git. It will not commit the newly created files.
 
