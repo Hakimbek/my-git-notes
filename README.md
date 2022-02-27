@@ -2,7 +2,7 @@
 # Git
 Git is a modern and widely used distributed version control system in the world. It is developed to manage projects with high speed and efficiency. The version control system allows us to monitor and work together with our team members at the same workspace. Git is foundation of many services like GitHub and GitLab. Git can be used privately and publicly.
 
-## Features of Git
+# Features of Git
 ### Open Source
   - Git is an open-source tool. It is released under the GPL (General Public License) license.
 ### Scalable
