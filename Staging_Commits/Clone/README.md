@@ -35,7 +35,6 @@ Git allows cloning the repository into a specific directory without switching to
 
 ```
 $ git clone https://github.com/ImDwivedi1/Git-Example.git "new folder(2)"  
-
 ```
 
 ## Git Clone Branch
