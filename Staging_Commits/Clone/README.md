@@ -30,12 +30,16 @@ $ git clone https://github.com/ImDwivedi1/Git-Example.git
 
 Now, Press Enter. Hence, your local cloned repository will be created.
 
+![clone](image/clone.png)
+
 ## Cloning a Repository into a Specific Local Folder
 Git allows cloning the repository into a specific directory without switching to that particular directory. You can specify that directory as the next command-line argument in git clone command. See the below command:
 
 ```
-$ git clone https://github.com/ImDwivedi1/Git-Example.git "new folder(2)"  
+$ git clone https://github.com/ImDwivedi1/Git-Example.git "newFolder"  
 ```
+
+![clone](image/c-newFolder.png)
 
 ## Git Clone Branch
 Git allows making a copy of only a particular branch from a repository. You can make a directory for the individual branch by using the git clone command. To make a clone branch, you need to specify the branch name with -b command. Below is the syntax of the command to clone the specific git branch:
@@ -46,5 +50,7 @@ $ git clone -b <Branch name><Repository URL>
 See the below command:
 
 ```
-$ git clone -b master https://github.com/ImDwivedi1/Git-Example.git "new folder(2)"  
+$ git clone -b master https://github.com/ImDwivedi1/Git-Example.git "newFolder"  
 ```
+
+![clone](image/b-clone.png)
