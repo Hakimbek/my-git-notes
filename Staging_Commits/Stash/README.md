@@ -16,7 +16,7 @@ Stashing takes the messy state of your working directory, and temporarily save i
 - Git stash branch
 
 ## Stashing Work
-Let's understand it with a real-time scenario. I have made changes to my project **Test** in two files from two distinct branches. I am in a messy state, and I have not entirely edited any file yet. So I want to save it temporarily for future use. We can stash it to save as its current status. To stash, let's have a look at the repository's current status. To check the current status of the repository, run the git status command. The git status command is used as:
+Let's understand it with a real-time scenario. I have made changes to my project **Test** in three files from two distinct branches. I am in a messy state, and I have not entirely edited any file yet. So I want to save it temporarily for future use. We can stash it to save as its current status. To stash, let's have a look at the repository's current status. To check the current status of the repository, run the git status command. The git status command is used as:
 
 ```
 $ git status  
@@ -28,6 +28,8 @@ To save it temporarily, we can use the git stash command. The git stash command 
 ```
 $ git stash  
 ```
+
+![stash](image/stash/png)
 
 ## Git Stash Save (Saving Stashes with the message):
 In Git, the changes can be stashed with a message. To stash a change with a message, run the below command:
