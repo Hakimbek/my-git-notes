@@ -35,7 +35,7 @@ $ git stash
 
 In the given output, the work is saved with git stash command. We can check the status of the repository.
 
-![stash](image/stash2.png)
+![stash2](image/stash2.png)
 
 As you can see, my work is just stashed in its current position. Now, the directory is cleaned. At this point, you can switch between branches and work on them.
 
