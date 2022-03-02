@@ -24,12 +24,14 @@ $ git status
 
 ![status](image/status.png)
 
+From the above output, you can see the status that there are two untracked file css.txt, imdex.txt available in the repository. To save it temporarily, we can use the git stash command. The git stash command is used as:
+
 To save it temporarily, we can use the git stash command. The git stash command is used as:
 ```
 $ git stash  
 ```
 
-![stash](image/stash/png)
+![stash](image/stash.png)
 
 ## Git Stash Save (Saving Stashes with the message):
 In Git, the changes can be stashed with a message. To stash a change with a message, run the below command:
