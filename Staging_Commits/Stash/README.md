@@ -22,6 +22,8 @@ Let's understand it with a real-time scenario. I have made changes to my project
 $ git status  
 ```
 
+![status](image/status.png)
+
 To save it temporarily, we can use the git stash command. The git stash command is used as:
 ```
 $ git stash  
