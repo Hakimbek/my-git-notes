@@ -47,6 +47,8 @@ $ git stash save "<Stashing Message>"
 
 ![save](image/s-save.png)
 
+The above stash will be saved with a message
+
 ## Git Stash List (Check the Stored Stashes)
 To check the stored stashes, run the below command:
 ```
