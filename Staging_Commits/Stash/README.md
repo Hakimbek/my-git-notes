@@ -16,7 +16,7 @@ Stashing takes the messy state of your working directory, and temporarily save i
 - Git stash branch
 
 ## Stashing Work
-Let's understand it with a real-time scenario. I have made changes to my project GitExample2 in two files from two distinct branches. I am in a messy state, and I have not entirely edited any file yet. So I want to save it temporarily for future use. We can stash it to save as its current status. To stash, let's have a look at the repository's current status. To check the current status of the repository, run the git status command. The git status command is used as:
+Let's understand it with a real-time scenario. I have made changes to my project **Test** in two files from two distinct branches. I am in a messy state, and I have not entirely edited any file yet. So I want to save it temporarily for future use. We can stash it to save as its current status. To stash, let's have a look at the repository's current status. To check the current status of the repository, run the git status command. The git status command is used as:
 
 ```
 $ git status  
