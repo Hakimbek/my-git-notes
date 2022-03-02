@@ -45,6 +45,8 @@ In Git, the changes can be stashed with a message. To stash a change with a mess
 $ git stash save "<Stashing Message>"  
 ```
 
+![save](image/s-save.png)
+
 ## Git Stash List (Check the Stored Stashes)
 To check the stored stashes, run the below command:
 ```
