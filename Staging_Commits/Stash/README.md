@@ -33,6 +33,12 @@ $ git stash
 
 ![stash](image/stash.png)
 
+In the given output, the work is saved with git stash command. We can check the status of the repository.
+
+![stash](image/stash2.png)
+
+As you can see, my work is just stashed in its current position. Now, the directory is cleaned. At this point, you can switch between branches and work on them.
+
 ## Git Stash Save (Saving Stashes with the message):
 In Git, the changes can be stashed with a message. To stash a change with a message, run the below command:
 ```
