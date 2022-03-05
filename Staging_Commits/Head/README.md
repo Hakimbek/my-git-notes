@@ -8,6 +8,8 @@ The git show head is used to check the status of the Head. This command will sho
 $ git show HEAD  
 ```
 
+![head](image/head.png)
+
 ## Git Detached Head
 GitHub keeps track of all commits or snapshots over time. If you check the 'git log' in your terminal, you can show all the previous commits up to the first commit. Detached HEAD mode allows you to discover an older state of a repository. It is a natural state in Git.
 
