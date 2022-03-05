@@ -57,7 +57,7 @@ $ git stash list
 
 ![list](image/list.png)
 
-In the above case, I have made one stash, which is displayed as "stash@{0}: WIP on the master: Save js file".
+If we have more than one stash, then It will display all the stashes respectively with different stash id.
 
 ## Git Stash Apply
 You can re-apply the changes that you just stashed by using the git stash command. To apply the commit, use the git stash command, followed by the apply option. It is used as:
