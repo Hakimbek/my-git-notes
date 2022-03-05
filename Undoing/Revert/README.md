@@ -12,26 +12,30 @@ $ git revert
 ## Git Revert Options:
 Git revert allows some additional operations like editing, no editing, cleanup, and more. Let's understand these options briefly:
 
-### \<commit>: 
+### \<commit>
 The commit option is used to revert a commit. To revert a commit, we need the commit reference id. The git log command can access it.
 ```
 $ git revert <commit-ish>  
 ```
-### \<--edit>: 
+### \<--edit> 
 It is used to edit the commit message before reverting the commit. It is a default option in git revert command.
 ```
 $ git revert -e <commit-ish>  
 ```
 
--m parent-number /--mainline parent-number: it is used to revert the merging. Generally, we cannot revert a merge because we do not know which side of the merge should be considered as the mainline. We can specify the parent number and allows revert to reverse the change relative to the specified parent.
+### -m parent-number /--mainline parent-number
+It is used to revert the merging. Generally, we cannot revert a merge because we do not know which side of the merge should be considered as the mainline. We can specify the parent number and allows revert to reverse the change relative to the specified parent.
 
--n/--no edit: This option will not open a text editor. It will directly revert the last commit.
+### -n/--no edit
+This option will not open a text editor. It will directly revert the last commit.
 ```
 $ git revert -n <commit-ish>  
 ```
---cleanup=\<mode>: The cleanup option determines how to strip spaces and comments from the message.
+### --cleanup=\<mode\>
+The cleanup option determines how to strip spaces and comments from the message.
 
--n/--no-commit: Generally, the revert command commits by default. The no-commit option will not automatically commit. In addition, if this option is used, your index does not have to match the HEAD commit.
+### -n/--no-commit
+Generally, the revert command commits by default. The no-commit option will not automatically commit. In addition, if this option is used, your index does not have to match the HEAD commit.
 
 The no-commit option is beneficial for reverting more than one commits effect to your index in a row.
 
