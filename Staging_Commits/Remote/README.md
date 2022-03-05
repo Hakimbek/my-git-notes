@@ -112,4 +112,4 @@ We can change the remote URL simply by using the git remote set command. Suppose
 $ git remote set-url <remote name> <newURL>  
 ```
 
-The remote set-url command takes two types of arguments. The first one is <remote name>, it is your current server name for the repository. The second argument is <newURL>, it is your new URL name for the repository.
+The remote set-url command takes two types of arguments. The first one is \<remote name\>, it is your current server name for the repository. The second argument is \<newURL\>, it is your new URL name for the repository.
