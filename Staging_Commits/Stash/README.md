@@ -24,7 +24,7 @@ $ git status
 
 ![status](image/status.png)
 
-From the above output, you can see the status that there are two untracked file **css.txt, index.txt** available in the repository. To save it temporarily, we can use the git stash command. The git stash command is used as:
+From the above output, you can see the status that there are three untracked files available in the repository. To save it temporarily, we can use the git stash command. The git stash command is used as:
 
 To save it temporarily, we can use the git stash command. The git stash command is used as:
 ```
