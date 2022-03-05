@@ -36,3 +36,7 @@ We can clone an existing repository. Suppose we have a repository on a version c
 ```
 $ git clone <Repository URL>  
 ```
+
+Suppose one of my friends has a repository on my GitHub account, and I want to contribute to it. So the first thing I will do, make a copy of this project to my local system for a better work interface. The essential element needed for cloning the repository URL. Now this repository is available on your local storage. You can commit it and contribute to the project by pushing it on a remote server.
+
+A single repository can be cloned any number of times. So we can clone a repository on various locations and various systems.
