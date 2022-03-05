@@ -15,10 +15,10 @@ Generally, the Ignored files are artifacts and machine-generated files. These fi
 
 - dependency caches
 - compiled code
-- build output directories, like /bin, /out, or /target
-- runtime file generated, like .log, .lock, or .tmp
-- Hidden system files, like Thumbs.db or.DS_Store
-- Personal IDE config files, such as .idea/workspace.xml
+- build output directories, like */bin, /out, or /target*
+- runtime file generated, like *.log, .lock, or .tmp*
+- Hidden system files, like *Thumbs.db or.DS_Store*
+- Personal IDE config files, such as *.idea/workspace.xml*
 
 ## Git Ignore Files
 Git ignore files is a file that can be any file or a folder that contains all the files that we want to ignore. The developers ignore files that are not necessary to execute the project. Git itself creates many system-generated ignored files. Usually, these files are hidden files. There are several ways to specify the ignore files. The ignored files can be tracked on a .gitignore file that is placed on the root folder of the repository. No explicit command is used to ignore the file.
