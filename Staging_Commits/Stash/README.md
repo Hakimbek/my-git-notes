@@ -67,11 +67,17 @@ $ git stash apply
 
 ![apply](image/apply.png)
 
+The above output restores the last stash. Now, if you will check the status of the repository, it will show the changes that are made on the file. 
+
 In case of more than one stash, you can use "git stash apply" command followed by stash index id to apply the particular commit. It is used as:
 
 ```
 $ git stash apply <stash id>  
 ```
+
+![id](image/stash-id.png)
+
+If we don't specify a stash, Git takes the most recent stash and tries to apply it.
 
 ## Git Stash Changes
 We can track the stashes and their changes. To see the changes in the file before stash and after stash operation, run the below command:
