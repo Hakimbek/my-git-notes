@@ -14,12 +14,14 @@ $ git remote
 
 The given command is providing the remote name as the origin. Origin is the default name for the remote server, which is given by Git.
 
-## Git remote -v:
+### Git remote -v:
 Git remote supports a specific option -v to show the URLs that Git has stored as a short name. These short names are used during the reading and write operation. Here, -v stands for verbose. We can use --verbose in place of -v. It is used as:
 ```
 $ git remote -v  
 ```
+
 Or
+
 ```
 $ git remote --verbose  
 ```
