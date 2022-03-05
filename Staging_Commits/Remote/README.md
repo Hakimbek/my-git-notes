@@ -105,6 +105,11 @@ It will result in information about the remote server. It contains a list of bra
 ## Git Change Remote (Changing a Remote's URL)
 We can change the URL of a remote repository. The git remote set command is used to change the URL of the repository. It changes an existing remote repository URL.
 
+### Git Remote Set:
+We can change the remote URL simply by using the git remote set command. Suppose we want to make a unique name for our project to specify it. Git allows us to do so. It is a simple process. To change the remote URL, use the below command:
+
 ```
 $ git remote set-url <remote name> <newURL>  
 ```
+
+The remote set-url command takes two types of arguments. The first one is <remote name>, it is your current server name for the repository. The second argument is <newURL>, it is your new URL name for the repository.
