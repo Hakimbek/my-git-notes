@@ -15,12 +15,12 @@ Git revert allows some additional operations like editing, no editing, cleanup, 
 ### \<commit>
 The commit option is used to revert a commit. To revert a commit, we need the commit reference id. The git log command can access it.
 ```
-$ git revert <commit-ish>  
+$ git revert <commit-id>  
 ```
 ### \<--edit> 
 It is used to edit the commit message before reverting the commit. It is a default option in git revert command.
 ```
-$ git revert -e <commit-ish>  
+$ git revert -e <commit-id>  
 ```
 
 ### -m parent-number /--mainline parent-number
@@ -42,7 +42,7 @@ The no-commit option is beneficial for reverting more than one commits effect to
 ## Git Revert to Previous Commit
 Suppose you have made a change to a file say newfile2.txt of your project. And later, you remind that you have made a wrong commit in the wrong file or wrong branch. Now, you want to undo the changes you can do so. Git allows you to correct your mistakes. 
 
-We can undo it by git revert command. To undo the changes, we will need the commit-ish. To check the commit-ish, run the below command:
+We can undo it by git revert command. To undo the changes, we will need the commit-ish. To check the commit-id, run the below command:
 ```
 $ git log  
 ```
