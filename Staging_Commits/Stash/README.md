@@ -104,6 +104,8 @@ The git stash pop command is quite similar to git stash apply. The main differen
 $ git stash pop  
 ```
 
+The above command will re-apply the previous commits to the repository.
+
 ## Git Stash Drop (Unstash)
 The git stash drop command is used to delete a stash from the queue. Generally, it deletes the most recent stash. Caution should be taken before using stash drop command, as it is difficult to undo if once applied.
 
