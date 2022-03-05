@@ -32,10 +32,12 @@ $ git remote --verbose
 When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
 
 ```
-$ git remote add <short name><remote URL>  
+$ git remote add <short name> <remote URL>  
 ```
 
 ![add](image/add.png)
+
+I have pulled a repository using its short name instead of its remote URL. Now, the repository master branch can be accessed through a short name.
 
 ## Fetching and Pulling Remote Branch
 You can fetch and pull data from the remote repository. The fetch and pull command goes out to that remote server, and fetch all the data from that remote project that you don't have yet. These commands let us fetch the references to all the branches from that remote.
@@ -46,7 +48,7 @@ $ git fetch <remote>
 ```
 To clone the remote repository from your remote projects, run the below command:
 ```
-$ git clone<remote>  
+$ git clone <remote>  
 ```
 When we clone a repository, the remote repository is added by a default name "origin." So, mostly, the command is used as git fetch origin.
 
@@ -57,10 +59,12 @@ To pull the repository, run the below command:
 $ git pull <remote>  
 ```
 
+The git pull command automatically fetches and then merges the remote data into your current branch. Pulling is an easier and comfortable workflow than fetching. Because the git clone command sets up your local master branch to track the remote master branch on the server you cloned.
+
 ## Pushing to Remote Branch
 If you want to share your project, you have to push it upstream. The git push command is used to share a project or send updates to the remote server. It is used as:
 ```
-$ git push <remote><branch>  
+$ git push <remote> <branch>  
 ```
 To update the main branch of the project, use the below command:
 ```
@@ -80,6 +84,8 @@ Or
 ```
 $ git remote remove <destination>  
 ```
+
+![rm](image/rm.png)
 
 ## Git Remote Rename
 Git allows renaming the remote server name so that you can use a short name in place of the remote server name. Below command is used to rename the remote server:
