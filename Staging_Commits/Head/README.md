@@ -10,6 +10,12 @@ $ git show HEAD
 
 ![head](image/head.png)
 
+In the above output, you can see that the commit id for the Head is given. It means the Head is on the given commit.
+
+Now, check the commit history of the project. You can use the git log command to check the commit history. See the below output:
+
+![log](image/log.png)
+
 ## Git Detached Head
 GitHub keeps track of all commits or snapshots over time. If you check the 'git log' in your terminal, you can show all the previous commits up to the first commit. Detached HEAD mode allows you to discover an older state of a repository. It is a natural state in Git.
 
