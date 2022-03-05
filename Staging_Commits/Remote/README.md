@@ -12,10 +12,6 @@ $ git remote
 
 ![remote](image/remote.png)
 
-### Output:
-```
-origin
-```
 The given command is providing the remote name as the origin. Origin is the default name for the remote server, which is given by Git.
 
 ## Git remote -v:
