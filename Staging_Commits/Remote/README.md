@@ -26,6 +26,8 @@ Or
 $ git remote --verbose  
 ```
 
+![v](image/v.png)
+
 ## Git Remote Add
 When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
 
