@@ -6,10 +6,8 @@ Sometimes you don't want to send the files to Git service like GitHub. We can sp
 The file system of Git is classified into three categories:
 ### Tracked:
   - Tracked files are such files that are previously staged or committed.
-
 ### Untracked:
   - Untracked files are such files that are not previously staged or committed.
-
 ### Ignored:
   - Ignored files are such files that are explicitly ignored by git. We have to tell git to ignore such files.
 
