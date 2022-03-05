@@ -65,6 +65,8 @@ You can re-apply the changes that you just stashed by using the git stash comman
 $ git stash apply  
 ```
 
+![apply](image/apply.png)
+
 In case of more than one stash, you can use "git stash apply" command followed by stash index id to apply the particular commit. It is used as:
 
 ```
