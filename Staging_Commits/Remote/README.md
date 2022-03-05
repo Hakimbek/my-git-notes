@@ -90,7 +90,7 @@ $ git remote remove <destination>
 ## Git Remote Rename
 Git allows renaming the remote server name so that you can use a short name in place of the remote server name. Below command is used to rename the remote server:
 ```
-$ git remote rename <old name><new name>  
+$ git remote rename <old name> <new name>  
 ```
 
 ## Git Show Remote
