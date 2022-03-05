@@ -19,7 +19,6 @@ Git is a modern and widely used distributed version control system in the world.
  - [Head](Staging_Commits/Head/README.md)
  - [Origin Master](Staging_Commits/Origin_Master/README.md)
  - [Remote](Staging_Commits/Remote/README.md)
- - [Tags](Staging_Commits/Tags/README.md)
 
 ## Undoing changes
  - [Checkout](Undoing/Checkout/README.md)
