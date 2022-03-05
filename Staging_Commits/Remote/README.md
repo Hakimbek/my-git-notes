@@ -9,6 +9,9 @@ To check the configuration of the remote server, run the git remote command. The
 ```
 $ git remote  
 ```
+
+![remote](image/remote.png)
+
 ### Output:
 ```
 origin
