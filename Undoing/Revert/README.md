@@ -9,7 +9,7 @@ Moreover, we can say that git revert records some new changes that are just oppo
 $ git revert   
 ```
 
-Git Revert Options:
+## Git Revert Options:
 Git revert allows some additional operations like editing, no editing, cleanup, and more. Let's understand these options briefly:
 
 \< commit>: The commit option is used to revert a commit. To revert a commit, we need the commit reference id. The git log command can access it.
