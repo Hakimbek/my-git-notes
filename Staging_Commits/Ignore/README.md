@@ -69,9 +69,8 @@ The above command will share the file *.gitignore* on Git.
 
 Now, we have ignored a pattern file and a directory in Git.
 
-Rules for putting the pattern in .gitignore file:
-
-### The rules for the patterns that can be put in the .gitignore file are as follows:
+### Rules for putting the pattern in .gitignore file:
+The rules for the patterns that can be put in the .gitignore file are as follows:
 
 - Git ignores the Blank lines or lines starting with #.
 - Only the Standard glob patterns work and will be applied recursively throughout the entire working tree.
