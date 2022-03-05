@@ -27,4 +27,12 @@ The above output is the same as git show output.
 ## Git Detached Head
 GitHub keeps track of all commits or snapshots over time. If you check the 'git log' in your terminal, you can show all the previous commits up to the first commit. Detached HEAD mode allows you to discover an older state of a repository. It is a natural state in Git.
 
-When Head doesn't point to most recent commit, such state is called detached Head. If you checkout with an older commit, it will stand the detached head condition. 
+When Head doesn't point to most recent commit, such state is called detached Head. If you checkout with an older commit, it will stand the detached head condition. See the below example:
+
+![detach](image/detachlog.png)
+
+I have copied the older commit id. Now I will check out with this id.
+
+![d-ch](image/d-ch.png)
+
+As you can see in the given example, Head does not point the most recent commit. It is called a detached head state. It is always recommended, do not commit on detached Head.
