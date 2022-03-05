@@ -116,6 +116,8 @@ The above command will re-apply the previous commits to the repository.
 $ git stash drop  
 ```
 
+![drop](image/drop.png)
+
 In the above output, the most recent stash (stash@{0}) has been dropped from given three stashes. The stash list command lists all the available stashes in the queue.
 
 We can also delete a particular stash from the queue. To delete a particular stash from the available stashes, pass the stash id in stash drop command. It will be processed as:
