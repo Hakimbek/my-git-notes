@@ -86,6 +86,8 @@ We can track the stashes and their changes. To see the changes in the file befor
 $ git stash show  
 ```
 
+![show](image/changes.png)
+
 ## Git Stash Pop (Reapplying Stashed Changes)
 Git allows the user to re-apply the previous commits by using git stash pop command. The popping option removes the changes from stash and applies them to your working file.
 
