@@ -38,3 +38,5 @@ In the latest versions of Git, you can check out the remote branch like a local 
 ```
 $ git checkout <remotebranch>  
 ```
+
+The fetch command is executed to fetch the remote data; after that, the checkout command is executed to check out a remote branch.
