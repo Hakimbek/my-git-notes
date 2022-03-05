@@ -12,11 +12,13 @@ $ git revert
 ## Git Revert Options:
 Git revert allows some additional operations like editing, no editing, cleanup, and more. Let's understand these options briefly:
 
-\< commit>: The commit option is used to revert a commit. To revert a commit, we need the commit reference id. The git log command can access it.
+### \<commit>: 
+The commit option is used to revert a commit. To revert a commit, we need the commit reference id. The git log command can access it.
 ```
 $ git revert <commit-ish>  
 ```
-\<--edit>: It is used to edit the commit message before reverting the commit. It is a default option in git revert command.
+### \<--edit>: 
+It is used to edit the commit message before reverting the commit. It is a default option in git revert command.
 ```
 $ git revert -e <commit-ish>  
 ```
