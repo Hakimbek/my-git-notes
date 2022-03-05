@@ -125,11 +125,21 @@ We can also delete a particular stash from the queue. To delete a particular sta
 $ git stash drop <stash id>  
 ```
 
+Assume that I have two stashes available in my queue, and I don't want to drop my most recent stash, but I want to delete the older one. Then, it will be operated as:
+
+```
+$ git stash drop stash@{1}  
+```
+
+The commit stash@{1} has been deleted from the queue.
+
 ## Git Stash Clear
 The git stash clear command allows deleting all the available stashes at once. To delete all the available stashes, operate below command:
 ```
 $ git stash clear  
 ```
+
+It will delete all the stashes that exist in the repository.
 
 ## Git Stash Branch
 If you stashed some work on a particular branch and continue working on that branch. Then, it may create a conflict during merging. So, it is good to stash work on a separate branch.
@@ -138,4 +148,3 @@ The git stash branch command allows the user to stash work on a separate branch 
 ```
 $ git stash branch <Branch Name>  
 ```
-it will delete all the stashes that exist in the repository.
