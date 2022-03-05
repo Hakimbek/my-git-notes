@@ -54,3 +54,27 @@ Now, add the files and directories to the *.gitignore* file that you want to ign
 ![file](image/gitignore.png)
 
 In the above file, I have given one format and a directory to ignore. The above format \*.txt will ignore all the text files from the repository, and /newfolder/\* will ignore the newfolder and its sub-content. We can also give only the name of any file to ignore.
+
+### Step3:
+Now, to share it on Git, we have to commit it. The *.gitignore* file is still now in staging area; we can track it by git status command. 
+
+Now to stage it, we have to commit it. To commit it, run the below command:
+
+```
+$ git add .gitignore  
+$ git commit -m "ignored directory created."  
+```
+
+The above command will share the file *.gitignore* on Git. 
+
+Now, we have ignored a pattern file and a directory in Git.
+
+Rules for putting the pattern in .gitignore file:
+
+### The rules for the patterns that can be put in the .gitignore file are as follows:
+
+- Git ignores the Blank lines or lines starting with #.
+- Only the Standard glob patterns work and will be applied recursively throughout the entire working tree.
+- The patterns can be started with a forward slash (/) to avoid recursively.
+- The patterns can be ended with a forward slash (/) to specify a directory.
+- The patterns can be negated by starting it with an exclamation point (!).
