@@ -22,6 +22,8 @@ We can also check the status of the Head by the commit id. Copy the commit id fr
 
 ![id](image/gitid.png)
 
+The above output is the same as git show output.
+
 ## Git Detached Head
 GitHub keeps track of all commits or snapshots over time. If you check the 'git log' in your terminal, you can show all the previous commits up to the first commit. Detached HEAD mode allows you to discover an older state of a repository. It is a natural state in Git.
 
