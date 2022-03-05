@@ -35,6 +35,8 @@ When we fetch a repository implicitly, git adds a remote for the repository. Als
 $ git remote add <short name><remote URL>  
 ```
 
+![add](image/add.png)
+
 ## Fetching and Pulling Remote Branch
 You can fetch and pull data from the remote repository. The fetch and pull command goes out to that remote server, and fetch all the data from that remote project that you don't have yet. These commands let us fetch the references to all the branches from that remote.
 
