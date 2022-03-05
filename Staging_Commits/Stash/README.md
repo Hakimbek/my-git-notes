@@ -88,6 +88,14 @@ $ git stash show
 
 ![show](image/changes.png)
 
+We can exactly track what changes are made on the file. To display the changed content of the file, perform the below command:
+
+```
+$ git stash show -p  
+```
+
+Here, -p stands for the partial stash. The given command will show the edited files and content. It acts the same as git diff command. The git diff command will also show the exact output.
+
 ## Git Stash Pop (Reapplying Stashed Changes)
 Git allows the user to re-apply the previous commits by using git stash pop command. The popping option removes the changes from stash and applies them to your working file.
 
