@@ -14,12 +14,15 @@ If you want to share your project on a version control system and control it wit
 $ git init  
 ```
 
+The above command will create a new subdirectory named .git that holds all necessary repository files. The .git subdirectory can be understood as a Git repository skeleton. 
+
 We can list all the untracked files by git status command.
 ```
 $ git status  
 ```
 
-To track the files, operate git add command as follows:
+To share these files on the version control system, we have to track it with git add command followed by a commit. To track the files, operate git add command as follows:
+
 ```
 $ git add <filename>  
 ```
