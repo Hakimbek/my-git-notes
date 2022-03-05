@@ -42,7 +42,7 @@ The no-commit option is beneficial for reverting more than one commits effect to
 ## Git Revert to Previous Commit
 Suppose you have made a change to a file say newfile2.txt of your project. And later, you remind that you have made a wrong commit in the wrong file or wrong branch. Now, you want to undo the changes you can do so. Git allows you to correct your mistakes. 
 
-We can undo it by git revert command. To undo the changes, we will need the commit-ish. To check the commit-id, run the below command:
+We can undo it by git revert command. To undo the changes, we will need the commit-id. To check the commit-id, run the below command:
 ```
 $ git log  
 ```
