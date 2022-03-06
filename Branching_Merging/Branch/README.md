@@ -14,7 +14,6 @@ The Operations that can be performed on a branch:
 ## Create Branch
 You can create a new branch with the help of the git branch command. This command will be used as:
 
-Syntax:
 ```
 $ git branch  <branch name>  
 ```
@@ -24,7 +23,6 @@ You can List all of the available branches in your repository by using the follo
 
 Either we can use *git branch --list* or *git branch* command to list the available branches in the repository.
 
-Syntax:
 ```
 $ git branch --list  
 ```
@@ -37,7 +35,6 @@ Here, both commands are listing the available branches in the repository. The sy
 ## Delete Branch
 You can delete the specified branch. It is a safe operation. In this command, Git prevents you from deleting the branch if it has unmerged changes. Below is the command to do this.
 
-Syntax:
 ```
 $ git branch -d<branch name>  
 ```
@@ -50,7 +47,6 @@ $ git branch -D <branch name>
 ## Delete a Remote Branch
 You can delete a remote branch from Git desktop application. Below command is used to delete a remote branch:
 
-Syntax:
 ```
 $ git push origin -delete <branch name>  
 ```
@@ -67,7 +63,6 @@ $ git checkout <branch name>
 
 You can switch from master to any other branch available on your repository without making any commit.
 
-Syntax:
 ```
 $ git checkout <branch name>  
 ```
@@ -76,7 +71,6 @@ $ git checkout <branch name>
 
 You can switch to the master branch from any other branch with the help of below command.
 
-Syntax:
 ```
 $ git branch -m master  
 ```
@@ -84,7 +78,6 @@ $ git branch -m master
 ## Rename Branch
 We can rename the branch with the help of the git branch command. To rename a branch, use the below command:
 
-Syntax:
 ```
 $ git branch -m <old branch name><new branch name>
 ```
@@ -92,7 +85,6 @@ $ git branch -m <old branch name><new branch name>
 ## Merge Branch
 Git allows you to merge the other branch with the currently active branch. You can merge two branches with the help of git merge command. Below command is used to merge the branches:
 
-Syntax:
 ```
 $ git merge <branch name>  
 ```
