@@ -22,7 +22,7 @@ $ git branch  <branch name>
 ## List Branch
 You can List all of the available branches in your repository by using the following command.
 
-Either we can use git branch - list or git branch command to list the available branches in the repository.
+Either we can use *git branch --list* or *git branch* command to list the available branches in the repository.
 
 Syntax:
 ```
