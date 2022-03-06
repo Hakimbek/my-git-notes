@@ -55,6 +55,8 @@ Syntax:
 $ git push origin -delete <branch name>  
 ```
 
+The remote branch named branch2 from my GitHub account is deleted.
+
 ## Switch Branch
 Git allows you to switch between the branches without making a commit. You can switch between two branches with the git checkout command. To switch between the branches, below command is used:
 ```
