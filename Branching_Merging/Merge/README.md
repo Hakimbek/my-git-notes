@@ -47,8 +47,6 @@ $ git merge <branchname>
 ## Git Merge Conflict
 When two branches are trying to merge, and both are edited at the same time and in the same file, Git won't be able to identify which version is to take for changes. Such a situation is called merge conflict. If such a situation occurs, it stops just before the merge commit so that you can resolve the conflicts manually.
 
-In the given output, git rebase command is used to pull the repository from the remote URL. Here, it will show the error message like merge conflict in \<filename>.
-
 ## Resolve Conflict:
 To resolve the conflict, it is necessary to know whether the conflict occurs and why it occurs. Git merge tool command is used to resolve the conflict. The merge command is used as follows:
 ```
