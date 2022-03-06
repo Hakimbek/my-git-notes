@@ -79,7 +79,7 @@ $ git branch -m master
 We can rename the branch with the help of the git branch command. To rename a branch, use the below command:
 
 ```
-$ git branch -m <old branch name><new branch name>
+$ git branch -m <old branch name> <new branch name>
 ```
 
 ## Merge Branch
