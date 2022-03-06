@@ -34,7 +34,7 @@ $ git checkout master
 
 Now, Switch to branch 'master' to perform merging operation on a commit. Use the git merge command along with master branch name. The syntax for this is as follows:
 ```
-$ git merge master  
+$ git merge <commit>
 ```
 
 ## Scenario 3: Git merge branch.
