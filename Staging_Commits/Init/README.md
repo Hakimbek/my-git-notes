@@ -1,7 +1,7 @@
 # Git Init
 The **git init** command is the first command that you will run on Git. The git init command is used to create a new blank repository. It is used to make an existing project as a Git project.
 
-The git init command creates a *.git* subdirectory in the current working directory. This newly created subdirectory contains all of the necessary metadata. These metadata can be categorized into **objects, refs** and **temp** files. It also initializes a HEAD pointer for the master branch of the repository.
+The git init command creates a *.git* subdirectory in the current working directory. This newly created subdirectory contains all of the necessary metadata.
 
 ## Creating the first repository
 Git version control system allows you to share projects among developers. For learning Git, it is essential to understand that how can we create a project on Git. A repository is a directory that contains all the project-related data. There can also be more than one project on a single repository.
