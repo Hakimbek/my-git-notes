@@ -1,5 +1,5 @@
 # Git Init
-The **git init** command is the first command that you will run on Git. The git init command is used to create a new blank repository. It is used to make an existing project as a Git project. Several Git commands run inside the repository, but init command can be run outside of the repository.
+The **git init** command is the first command that you will run on Git. The git init command is used to create a new blank repository. It is used to make an existing project as a Git project.
 
 The git init command creates a *.git* subdirectory in the current working directory. This newly created subdirectory contains all of the necessary metadata. These metadata can be categorized into **objects, refs** and **temp** files. It also initializes a HEAD pointer for the master branch of the repository.
 
