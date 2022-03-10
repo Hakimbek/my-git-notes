@@ -1,6 +1,5 @@
 # Git Commit
-It is used to record the changes in the repository. It is the next command after the git add
-. Every commit contains the index data and the commit message. Every commit forms a parent-child relationship. When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository.
+It is used to record the changes in the repository. It is the next command after the *git add*. Every commit contains the index data and the commit message. Every commit forms a parent-child relationship. When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository.
 
 The staging and committing are co-related to each other. Staging allows us to continue in making changes to the repository, and when we want to share these changes to the version control system, committing allows us to record these changes.
 
@@ -21,12 +20,6 @@ As we run the command, it will prompt a default text editor and ask for a commit
 
 Press the Esc key and after that 'I' for insert mode. Type a commit message whatever you want. Press Esc after that ':wq' to save and exit from the editor. Hence, we have successfully made a commit.
 
-We can check the commit by git log command. Consider the below output:
-
-![log](image/log.png)
-
-We can see in the above output that log option is displaying commit-id, author detail, date and time, and the commit message.
-
 ## Git commit -a
 The commit command also provides -a option to specify some commits. It is used to commit the snapshots of all changes. This option only consider already added files in Git. It will not commit the newly created files.
 
@@ -40,18 +33,21 @@ The above command will prompt our default text editor and ask for the commit mes
 
 ## Git commit -m
 The -m option of commit command lets you to write the commit message on the command line. This command will not prompt the text editor. It will run as follows:
+
 ```
 $ git commit -m "Commit message."  
 ```
 
 We can also use the -am option for already staged files. This command will immediately make a commit for already staged files with a commit message. It will run as follows:
 ```
-$ git commit -am "Commit message."  
+$ git commit -a -m "Commit message."  
 ```
 
 ## Git Commit Amend (Change commit message)
 The amend option lets us to edit the last commit. If accidentally, we have committed a wrong commit message, then this feature is a savage option for us. It will run as follows:
+
 ```
 $ git commit --amend  
 ```
+
 The above command will prompt the default text editor and allow us to edit the commit message.
