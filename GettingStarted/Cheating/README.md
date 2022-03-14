@@ -79,122 +79,211 @@ $ git status
 ```
 $ git show
 ```
-5. Commit History
-Git log
+# Commit History
+### Git log
 Display the most recent commits and the status of the head:
+```
 $ git log
+```
 Display the output as one commit per line:
-$ git log -oneline
+```
+$ git log --oneline
+```
 Displays the files that have been modified:
-$ git log -stat
+```
+$ git log --stat
+```
 Display the modified files with location:
+```
 $ git log -p
-Git blame
+```
+### Git blame
 Display the modification on each line of a file:
+```
 $ git blame <file name>
-6. Ignoring files
+```
+
+# Ignoring files
+```
 .gitignore
+```
 Specify intentionally untracked files that Git should ignore. Create .gitignore:
+```
 $ touch .gitignore List the ignored files:
 $ git ls-files -i --exclude-standard
-7. Branching
-Git branch Create branch:
+```
+
+# Branching
+### Git branch Create branch:
+```
 $ git branch List Branch:
 $ git branch --list Delete a Branch:
 $ git branch -d Delete a remote Branch:
 $ git push origin -delete Rename Branch:
 $ git branch -m
-Git checkout
+```
+
+### Git checkout
 Switch between branches in a repository.
 Switch to a particular branch:
+```
 $ git checkout
+```
 Create a new branch and switch to it:
+```
 $ git checkout -b Checkout a Remote branch:
 $ git checkout
-Git stash
+```
+### Git stash
 Switch branches without committing the current branch. Stash current work:
+```
 $ git stash
+```
 Saving stashes with a message:
+```
 $ git stash save ""
+```
 Check the stored stashes:
+```
 $ git stash list
+```
 Re-apply the changes that you just stashed:
+```
 $ git stash apply
+```
 Track the stashes and their changes:
+```
 $ git stash show
+```
 Re-apply the previous commits:
+```
 $ git stash pop
+```
 Delete a most recent stash from the queue:
+```
 $ git stash drop
+```
 Delete all the available stashes at once:
+```
 $ git stash clear
+```
 Stash work on a separate branch:
+```
 $ git stash branch
-Git cherry pic
+```
+### Git cherry pic
 Apply the changes introduced by some existing commit:
+```
 $ git cherry-pick
-8. Merging
-Git merge
+```
+
+# Merging
+### Git merge
 Merge the branches:
+```
 $ git merge
+```
 Merge the specified commit to currently active branch:
+```
 $ git merge
-Git rebase
+```
+### Git rebase
 Apply a sequence of commits from distinct branches into a final commit.
+```
 $ git rebase
+```
 Continue the rebasing process:
+```
 $ git rebase -continue Abort the rebasing process:
 $ git rebase --skip
-Git interactive rebase
+```
+### Git interactive rebase
 Allow various operations like edit, rewrite, reorder, and more on existing commits.
+```
 $ git rebase -i
-9. Remote
-Git remote
+```
+
+# Remote
+### Git remote
 Check the configuration of the remote server:
+```
 $ git remote -v
+```
 Add a remote for the repository:
+```
 $ git remote add Fetch the data from the remote server:
 $ git fetch
+```
 Remove a remote connection from the repository:
+```
 $ git remote rm
+```
 Rename remote server:
+```
 $ git remote rename
+```
 Show additional information about a particular remote:
+```
 $ git remote show
+```
 Change remote:
+```
 $ git remote set-url
-Git origin master
+```
+### Git origin master
 Push data to the remote server:
+```
 $ git push origin master Pull data from remote server:
 $ git pull origin master
-10. Pushing Updates
-Git push
+```
+# Pushing Updates
+### Git push
 Transfer the commits from your local repository to a remote server. Push data to the remote server:
+```
 $ git push origin master Force push data:
 $ git push -f
+```
 Delete a remote branch by push command:
+```
 $ git push origin -delete edited
-11. Pulling updates
-Git pull
+```
+
+# Pulling updates
+### Git pull
 Pull the data from the server:
+```
 $ git pull origin master
+```
 Pull a remote branch:
+```
 $ git pull
-Git fetch
+```
+### Git fetch
 Download branches and tags from one or more repositories. Fetch the remote repository:
+```
 $ git fetch< repository Url> Fetch a specific branch:
 $ git fetch
+```
 Fetch all the branches simultaneously:
+```
 $ git fetch -all
+```
 Synchronize the local repository:
+```
 $ git fetch origin
-12. Undo changes
-Git revert
+```
+
+# Undo changes
+### Git revert
 Undo the changes:
+```
 $ git revert
+```
 Revert a particular commit:
+```
 $ git revert
-Git reset
+```
+### Git reset
 Reset the changes:
 $ git reset -hard
 $ git reset -soft:
