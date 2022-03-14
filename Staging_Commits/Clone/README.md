@@ -45,7 +45,7 @@ $ git clone https://github.com/ImDwivedi1/Git-Example.git "newFolder"
 Git allows making a copy of only a particular branch from a repository. You can make a directory for the individual branch by using the git clone command. To make a clone branch, you need to specify the branch name with -b command. Below is the syntax of the command to clone the specific git branch:
 
 ```
-$ git clone -b <Branch name><Repository URL>  
+$ git clone -b <Branch name> <Repository URL>  
 ```
 See the below command:
 
