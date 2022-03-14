@@ -2,12 +2,9 @@
 # Git Cheat Sheet
 
 ### 1. Git configuration
-Git config
-
+Git config 
 Get and set configuration variables that control all facets of how Git looks and operates.
-
 Set the name:
-
 $ git config --global user.name "User name"
 Set the email:
 $ git config --global user.email "himanshudubey481@gmail.com"
