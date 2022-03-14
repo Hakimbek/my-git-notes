@@ -1,5 +1,3 @@
-
-# Git Cheat Sheet
 ## Git configuration
 ### Git config
 Get and set configuration variables that control all facets of how Git looks and operates.
