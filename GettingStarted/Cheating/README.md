@@ -1,4 +1,4 @@
-## Git configuration
+# Git configuration
 ### Git config
 Get and set configuration variables that control all facets of how Git looks and operates.
 ### Set the name:
@@ -26,7 +26,7 @@ $ git config --global alias.ci commit
 $ git config --global alias.st status
 ```
 
-## Starting a project
+# Starting a project
 ### Git init
 Create a local repository:
 ```
@@ -38,7 +38,7 @@ Make a local copy of the server repository.
 $ git clone
 ```
 
-## Local changes
+# Local changes
 ### Git add
 Add a file to staging (Index) area:
 ```
@@ -54,7 +54,7 @@ Record or snapshots the file permanently in the version history with a message.
 $ git commit -m " Commit Message"
 ```
 
-## Track changes
+# Track changes
 ### Git diff
 Track the changes that have not been staged: $ git diff
 Track the changes that have staged but not committed:
