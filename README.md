@@ -3,9 +3,9 @@
 Git is a modern and widely used distributed version control system in the world. It is developed to manage projects with high speed and efficiency. The version control system allows us to monitor and work together with our team members at the same workspace. Git is foundation of many services like GitHub and GitLab.
 
 ## Getting Started
- - [Git Environment Setup](GettingStarted/Environment_Setup/README.md)
- - [Git Tools](GettingStarted/Tools/README.md)
- - [Git Cheating Sheet](GettingStarted/Cheating/README.md)
+ - [Git Environment Setup](GettingStarted/Environment_Setup)
+ - [Git Tools](GettingStarted/Tools)
+ - [Git Cheating Sheet](GettingStarted/Cheating)
 
 ## Staging and Commits
  - [Init](Staging_Commits/Init/README.md)
