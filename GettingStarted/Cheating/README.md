@@ -17,7 +17,7 @@ $ git config --global core.editor Vim
 ```
 ### Check the setting:
 ```
-$ git config -list
+$ git config --list
 ```
 ### Git alias
 Set up an alias for each command:
