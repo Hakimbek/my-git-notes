@@ -5,7 +5,6 @@ Git is a modern and widely used distributed version control system in the world.
 ## Getting Started
  - [Git Environment Setup](GettingStarted/Environment_Setup)
  - [Git Tools](GettingStarted/Tools)
- - [Git Cheating Sheet](GettingStarted/Cheating)
 
 ## Staging and Commits
  - [Init](Staging_Commits/Init/README.md)
