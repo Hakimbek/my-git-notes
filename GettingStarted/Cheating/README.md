@@ -1,6 +1,6 @@
 
 # Git Cheat Sheet
-## 1. Git configuration
+## Git configuration
 ### Git config
 Get and set configuration variables that control all facets of how Git looks and operates.
 ### Set the name:
