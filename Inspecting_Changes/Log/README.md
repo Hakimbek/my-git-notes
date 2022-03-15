@@ -93,7 +93,7 @@ We can filter the output by date and time. We have to pass *--after* or *--befor
 $ git log --after="yy-mm-dd"  
 ```
 
-We can also pass the applicable reference statement like "yesterday," "1 week ago", "21 days ago," and more. It will run as:
+We can also pass the applicable reference statement like "yesterday", "1 week ago", "21 days ago," and more. It will run as:
 ```
 git log --after="21 days ago"  
 ```
