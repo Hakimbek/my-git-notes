@@ -42,12 +42,11 @@ The log command displays the files that have been modified. It also shows the nu
 
 Generally, we can say that the stat option is used to display
 
-- the modified files,
+- The modified files
 - The number of lines that have been added or removed
 - A summary line of the total number of records changed
 - The lines that have been added or removed.
 
-It will be used as follows:
 ```
 $ git log --stat  
 ```
@@ -63,14 +62,14 @@ Or
 ```
 $ git log -p  
 ```
-Generally, we can say that the --patch flag is used to display:
+Generally, we can say that the *--patch* flag is used to display:
 
 - Modified files
 - The location of the lines that you added or removed
 - Specific changes that have been made.
 
 ## Git Log Graph
-Git log command allows viewing your git log as a graph. To list the commits in the form of a graph, run the git log command with --graph option. It will run as follows:
+Git log command allows viewing your git log as a graph. To list the commits in the form of a graph, run the git log command with *--graph* option.
 ```
 $ git log --graph  
 ```
@@ -84,12 +83,12 @@ We can filter the output according to our needs. It's a unique feature of Git. W
 
 Let's understand each of these filters in detail.
 
-## By Amount:
+### By Amount:
 We can limit the number of output commit by using git log command. It is the most specific command. This command will remove the complexity if you are interested in fewer commits.
 
 To limit the git log's output, including the -\<n> option. If we want only the last three commit, then we can pass the argument -3 in the git log command. 
 
-## By Date and Time:
+### By Date and Time:
 
 We can filter the output by date and time. We have to pass --after or -before argument to specify the date. These both argument accept a variety of date formats. It will run as follows:
 ```
@@ -106,7 +105,7 @@ We can also track the commits between two dates. To track the commits that were 
 $ git log --after="2019-11-01" --before="2019-11-08 "  
 ```
 
-## By Author:
+### By Author:
 
 We can filter the commits by a particular user. Suppose, we want to list the commits only made by a particular team member. We can use -author flag to filter the commits by author name. This command takes a regular expression and returns the list of commits made by authors that match that pattern. You can use the exact name instead of the pattern. This command will run as follows:
 ```
@@ -120,7 +119,7 @@ As we know, the author's email is also involved with the author's name, so that 
 $ git log -author="@gmail.com"  
 ```
 
-## By Commit message:
+### By Commit message:
 
 To filter the commits by the commit message. We can use the grep option, and it will work as the author option.
 
