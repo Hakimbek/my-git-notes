@@ -13,7 +13,7 @@ Generally, the git log is a record of commits. A git log contains the following 
 ## How to Exit the git log Command?
 There may be a situation that occurs, you run the git log command, and you stuck there. You want to type or back to bash, but you can't. When you click the Enter key, it will navigate you to the older command until the end flag.
 
-The solution to this problem is to press the q (Q for quit). It will quit you from the situation and back you to the command line. Now, you can perform any of the commands.
+The solution to this problem is to press the *q* (Q for quit). It will quit you from the situation and back you to the command line. Now, you can perform any of the commands.
 
 ## Basic Git log
 Git log command is one of the most usual commands of git. It is the most useful command for Git. Every time you need to check the history, you have to use the git log command. The basic git log command will display the most recent commits and the status of the head. It will use as:
