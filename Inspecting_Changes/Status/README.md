@@ -17,14 +17,14 @@ Since there is nothing to track or untrack in the working tree, so the output is
 ### Status when a new file is created
 When we create a file in the repository, the state of the repository changes. Let's create a file using the touch command. 
 
-## Status when an existing file is modified
+### Status when an existing file is modified
 Let's check the status when an existing file is modified. To modify file, run the echo command as follows:
 ```
 $ echo "Text"> Filename  
 ```
 The above command will add the text to the specified file, now check the status of the repository. Consider the below output:
 
-Status when a file is deleted
+### Status when a file is deleted
 Let's check the status when a file is deleted from the repository. To delete a file from the repository, run the rm command as follows:
 ```
 $ git rm < File Name>  
