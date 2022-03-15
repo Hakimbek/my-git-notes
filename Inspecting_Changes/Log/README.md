@@ -105,7 +105,7 @@ $ git log --after="2019-11-01" --before="2019-11-08 "
 
 ### By Author:
 
-We can filter the commits by a particular user. Suppose, we want to list the commits only made by a particular team member. We can use -author flag to filter the commits by author name. This command takes a regular expression and returns the list of commits made by authors that match that pattern. You can use the exact name instead of the pattern. This command will run as follows:
+We can filter the commits by a particular user. Suppose, we want to list the commits only made by a particular team member. We can use --author flag to filter the commits by author name. This command takes a regular expression and returns the list of commits made by authors that match that pattern. You can use the exact name instead of the pattern. This command will run as follows:
 ```
 $ git log --author="Author name"  
 ```
