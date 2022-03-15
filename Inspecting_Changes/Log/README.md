@@ -31,7 +31,7 @@ It will be used as follows:
 ```
 $ git log --oneline  
 ```
-So, usually we can say that the --oneline flag causes git log to display:
+So, usually we can say that the *--oneline* flag causes git log to display:
 
 - one commit per line
 - the first seven characters of the SHA
