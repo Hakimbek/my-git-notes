@@ -3,17 +3,18 @@ The git status command is used to display the state of the repository and stagin
 
 Mostly, it is used to display the state between **Git Add** and **Git commit** command. We can check whether the changes and files are tracked or not.
 
-Let's understand the different states of status command.
+### Status when Working Tree is cleaned
+Before starting with git status command, let's see how the git status looks like when there are no changes made. To check the status, open the git bash, and run the status command on your desired directory.
 
-Status when Working Tree is cleaned
-Before starting with git status command, let's see how the git status looks like when there are no changes made. To check the status, open the git bash, and run the status command on your desired directory. It will run as follows:
 ```
 $ git status 
 ```
 
+
+
 Since there is nothing to track or untrack in the working tree, so the output is showing as the working tree is clean.
 
-## Status when a new file is created
+### Status when a new file is created
 When we create a file in the repository, the state of the repository changes. Let's create a file using the touch command. 
 
 ## Status when an existing file is modified
