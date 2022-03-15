@@ -81,8 +81,6 @@ $ git log --graph --oneline
 ## Filtering the Commit History
 We can filter the output according to our needs. It's a unique feature of Git. We can apply many filters like amount, date, author, and more on output. Each filter has its specifications. They can be used for implementing some navigation operations on output.
 
-Let's understand each of these filters in detail.
-
 ### By Amount:
 We can limit the number of output commit by using git log command. It is the most specific command. This command will remove the complexity if you are interested in fewer commits.
 
