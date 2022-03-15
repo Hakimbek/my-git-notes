@@ -114,14 +114,13 @@ The author's name doesn't need to be an exact match; it just has the specified p
 
 As we know, the author's email is also involved with the author's name, so that we can use the author's email as the pattern or exact search. Suppose, we want to track the commits by the authors whose email service is google. To do so, we can use wild cards as "@gmail.com." Consider the below statement:
 ```
-$ git log -author="@gmail.com"  
+$ git log --author="@gmail.com"  
 ```
 
 ### By Commit message:
 
 To filter the commits by the commit message. We can use the grep option, and it will work as the author option.
 
-It will run as follows:
 ```
-$ git log --grep=" Commit message."  
+$ git log --grep="Commit message."  
 ```
