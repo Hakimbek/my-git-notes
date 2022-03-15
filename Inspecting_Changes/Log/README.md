@@ -1,7 +1,7 @@
 # Git log
 The advantage of a version control system is that it records changes. These records allow us to retrieve the data like commits, figuring out bugs, updates. But, all of this history will be useless if we cannot navigate it. At this point, we need the git log command.
 
-Git log is a utility tool to review and read a history of everything that happens to a repository. Multiple options can be used with a git log to make history more specific.
+Git log is a utility tool to review and read a history of everything that happens to a repository.
 
 Generally, the git log is a record of commits. A git log contains the following data:
 
