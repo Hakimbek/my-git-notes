@@ -88,7 +88,7 @@ To limit the git log's output, including the -\<n> option. If we want only the l
 
 ### By Date and Time:
 
-We can filter the output by date and time. We have to pass --after or -before argument to specify the date. These both argument accept a variety of date formats. It will run as follows:
+We can filter the output by date and time. We have to pass *--after* or *--before* argument to specify the date. These both argument accept a variety of date formats. It will run as follows:
 ```
 $ git log --after="yy-mm-dd"  
 ```
