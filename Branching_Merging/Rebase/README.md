@@ -24,7 +24,10 @@ $ git status
 ```
 It is used to check the status,
 
-$git rebase --continue  
+```
+$ git rebase --continue  
+```
+
 The above command is used to continue with the changes you made. If you want to skip the change, you can skip as follows:
 ```
 $ git rebase --skip  
