@@ -21,19 +21,19 @@ Git is a modern and widely used distributed version control system in the world.
  - [Remote](Staging_Commits/Remote)
 
 ## Undoing changes
- - [Checkout](Undoing/Checkout/README.md)
- - [Revert](Undoing/Revert/README.md)
- - [Reset](Undoing/Reset/README.md)
- - [Git Rm](Undoing/RM/README.md)
- - [Cherry-pick](Undoing/Cherry_Pick/README.md)
+ - [Checkout](Undoing/Checkout)
+ - [Revert](Undoing/Revert)
+ - [Reset](Undoing/Reset)
+ - [Git Rm](Undoing/RM)
+ - [Cherry-pick](Undoing/Cherry_Pick)
 
 ## Inspecting Changes
- - [Log](Inspecting_Changes/Log/README.md)
- - [Diff](Inspecting_Changes/Diff/README.md)
- - [Status](Inspecting_Changes/Status/README.md)
+ - [Log](Inspecting_Changes/Log)
+ - [Diff](Inspecting_Changes/Diff)
+ - [Status](Inspecting_Changes/Status)
 
 ## Branching and Merging
- - [Branch](Branching_Merging/Branch/README.md)
- - [Merge](Branching_Merging/Merge/README.md)
- - [Rebase](Branching_Merging/Rebase/README.md)
- - [Squash](Branching_Merging/Squash/README.md)
+ - [Branch](Branching_Merging/Branch)
+ - [Merge](Branching_Merging/Merge)
+ - [Rebase](Branching_Merging/Rebase)
+ - [Squash](Branching_Merging/Squash)
