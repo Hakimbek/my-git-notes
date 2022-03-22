@@ -15,7 +15,7 @@ The Operations that can be performed on a branch:
 You can create a new branch with the help of the git branch command. This command will be used as:
 
 ```
-$ git branch  <branch name>  
+$ git branch <branch name>  
 ```
 
 ## List Branch
@@ -36,7 +36,7 @@ Here, both commands are listing the available branches in the repository. The sy
 You can delete the specified branch. It is a safe operation. In this command, Git prevents you from deleting the branch if it has unmerged changes. Below is the command to do this.
 
 ```
-$ git branch -d<branch name>  
+$ git branch -d <branch name>  
 ```
 
 The git branch d command can be used in two formats. Another format of this command is git branch D. The 'git branch D' command is used to delete the specified branch.
@@ -50,8 +50,6 @@ You can delete a remote branch from Git desktop application. Below command is us
 ```
 $ git push origin -delete <branch name>  
 ```
-
-The remote branch named branch2 from my GitHub account is deleted.
 
 ## Switch Branch
 Git allows you to switch between the branches without making a commit. You can switch between two branches with the git checkout command. To switch between the branches, below command is used:
