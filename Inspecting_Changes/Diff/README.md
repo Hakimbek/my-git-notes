@@ -11,7 +11,7 @@ Let's understand different scenarios where we can utilize the git diff command.
 
 The usual use of git diff command that we can track the changes that have not been staged.
 
-Suppose we have edited the newfile1.txt file. Now, we want to track what changes are not staged yet. Then we can do so from the git diff command. 
+Suppose we have edited the *newfile.txt* file. Now, we want to track what changes are not staged yet. Then we can do so from the git diff command. 
 
 ## Scenerio2: Track the changes that have staged but not committed:
 
