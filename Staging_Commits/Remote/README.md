@@ -29,15 +29,11 @@ $ git remote --verbose
 ![v](image/v.png)
 
 ## Git Remote Add
-When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
+When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a short nickname or short name. To add remote as a short name, follow the below command:
 
 ```
 $ git remote add <short name> <remote URL>  
 ```
-
-![add](image/add.png)
-
-I have pulled a repository using its short name instead of its remote URL. Now, the repository master branch can be accessed through a short name.
 
 ## Fetching and Pulling Remote Branch
 You can fetch and pull data from the remote repository. The fetch and pull command goes out to that remote server, and fetch all the data from that remote project that you don't have yet. These commands let us fetch the references to all the branches from that remote.
