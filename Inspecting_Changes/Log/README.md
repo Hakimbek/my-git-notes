@@ -16,7 +16,7 @@ There may be a situation that occurs, you run the git log command, and you stuck
 The solution to this problem is to press the *q* (Q for quit). It will quit you from the situation and back you to the command line. Now, you can perform any of the commands.
 
 ## Basic Git log
-Git log command is one of the most usual commands of git. It is the most useful command for Git. Every time you need to check the history, you have to use the git log command. The basic git log command will display the most recent commits and the status of the head.
+Git log command is one of the most usual commands of git. Every time you need to check the history, you have to use the git log command. The basic git log command will display the most recent commits and the status of the head.
 ```
 $ git log  
 ```
