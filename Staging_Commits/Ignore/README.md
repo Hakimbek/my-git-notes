@@ -1,7 +1,5 @@
 # Git Ignore
-In Git, the term "ignore" is used to specify intentionally untracked files that Git should ignore. It doesn't affect the Files that already tracked by Git.
-
-Sometimes you don't want to send the files to Git service like GitHub. We can specify files in Git to ignore.
+In Git, the term "ignore" is used to specify intentionally untracked files that Git should ignore. It doesn't affect the Files that already tracked by Git. Sometimes you don't want to send the files to Git service like GitHub. We can specify files in Git to ignore.
 
 The file system of Git is classified into three categories:
 ### Tracked:
@@ -21,7 +19,7 @@ Generally, the Ignored files are artifacts and machine-generated files. These fi
 - Personal IDE config files, such as *.idea/workspace.xml*
 
 ## Git Ignore Files
-Git ignore files is a file that can be any file or a folder that contains all the files that we want to ignore. The developers ignore files that are not necessary to execute the project. Git itself creates many system-generated ignored files. Usually, these files are hidden files. There are several ways to specify the ignore files. The ignored files can be tracked on a *.gitignore* file that is placed on the root folder of the repository. No explicit command is used to ignore the file.
+Git ignore files is a file that can be any file or a folder that contains all the files that we want to ignore. The developers ignore files that are not necessary to execute the project. Git itself creates many system-generated ignored files. Usually, these files are hidden files. There are several ways to specify the ignore files. The ignored files can be tracked on a *.gitignore* file that is placed on the root folder of the repository.
 
 There is no explicit git ignore command; instead, the *.gitignore* file must be edited and committed by hand when you have new files that you wish to ignore. The *.gitignore* files hold patterns that are matched against file names in your repository to determine whether or not they should be ignored.
 
@@ -32,16 +30,10 @@ There is no command in Git to ignore files; alternatively, there are several way
 Rules for ignoring file is defined in the *.gitignore* file. The *.gitignore* file is a file that contains all the formats and files of the ignored file. We can create multiple ignore files in a different directory. Let's understand how it works with an example:
 
 ### Step1: 
-Create a file named *.gitignore* if you do not have it already in your directory. To create a file, use the command touch or cat. It will use as follows:
+Create a file named *.gitignore* if you do not have it already in your directory. To create a file, use the command touch. It will use as follows:
 
 ```
 $ touch .gitignore  
-```
-
-Or
-
-```
-$ cat .gitignore  
 ```
 
 ![ignore](image/ignore.png)
@@ -65,9 +57,7 @@ $ git add .gitignore
 $ git commit -m "ignored directory created."  
 ```
 
-The above command will share the file *.gitignore* on Git. 
-
-Now, we have ignored a pattern file and a directory in Git.
+The above command will share the file *.gitignore* on Git. Now, we have ignored a pattern file and a directory in Git.
 
 ### Rules for putting the pattern in *.gitignore* file:
 The rules for the patterns that can be put in the *.gitignore* file are as follows:
