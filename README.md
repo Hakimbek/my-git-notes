@@ -9,7 +9,7 @@ Git is a modern and widely used distributed version control system in the world.
 ## Staging and Commits
  - [Init](Staging_Commits/Init)
  - [Add](Staging_Commits/Add)
- - [Commit](Staging_Commits)
+ - [Commit](Staging_Commits/Commit)
  - [Clone](Staging_Commits/Clone)
  - [Stash](Staging_Commits/Stash)
  - [Git ignore](Staging_Commits/Ignore)
